@@ -1,37 +1,38 @@
 @media (max-width: 768px) {
-   .cabecalho {
+  .cabecalho {
     flex-direction: column;
-    gap: 147px;
-   }
+  }
 
-   .cabecalho a {
+  .cabecalho a {
     flex-direction: row;
     justify-content: center;
-   }
+  }
 
-   .cabecalho a h1 {
+  .cabecalho a h1 {
     font-size: 40px;
-   }
+  }
 
-   .menu {
+  .menu {
     flex-direction: column;
     font-size: 40px;
-    
-   }
+    margin-top: 50px;
+  }
 
-   .menu ul {
-    flex-direction: column;
-    margin-bottom: 35px;
-   }
+  .menu li {
+    padding: 33px 0;
+  }
 
-   .menu ul li {
-    width: 233px;
-    height: 81px;
-   }
+  .menu li:last-child {
+    margin-top: 20px;
+  }
 
-   button {
+  .menu li a {
+    padding: 17px 40px;
+  }
+
+  .menu li a.btn {
+    margin-top: 20px;
     font-size: 18px;
-    width: 151px;
-    height: 55px;
-   }
+    padding: 15px 23px;
+  }
 }
